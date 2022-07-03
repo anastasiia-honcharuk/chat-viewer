@@ -8,5 +8,6 @@ Run these command to start an action server:
 1. Open the ChatViewer application. 
 2. Click on **Open** button.
 3. In the dialogue window navigate to the directory where is the file with the conversation, select it and click **Open**.
+4. In case that selected file has the correct format, the conversation is displayed.
 ![Demo](demo.png)
 

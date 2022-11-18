@@ -1,0 +1,67 @@
+objednávka{
+    font-family:arial, helvetica, sans-serif;
+    font-size:14px;
+    display:block;
+    border:1px solid gray;
+    margin:10px auto;
+    padding:20px;
+    width:600px;
+}
+
+adresa{
+    display:block;
+    margin:0 10px;
+}
+adresa:before{
+    content:"Adresa " attr(typ);
+    display:block;
+    font-weight:bold;
+}
+doprava{
+    display:block;
+    margin: 0 10px;
+}
+doprava:before{
+    content:"Doprava " attr(typ);
+    display:block;
+    font-weight:bold;
+}
+platba{
+    display:block;
+    margin: 0 10px;
+}
+platba:before{
+    content:"Platba " attr(typ);
+    display:block;
+    font-weight:bold;s
+}
+
+přijata{
+    display:block;
+    margin: 0 10px;
+}
+přijata:before{
+    content:"Přijata " attr(typ);
+    display:block;
+    font-weight:bold;
+}
+doručení{ 
+    display:block;
+    margin: 0 10px;
+}
+doručení:before{
+    content:"Doručení " attr(typ);
+    display:block;
+    font-weight:bold;
+}
+položky{
+    display:block;
+    border: 1px solid gray;
+    margin:10px auto;
+    padding:20px;
+    width:400px;
+}
+položka{
+    display:block;
+    margin: 0 10px;
+}
